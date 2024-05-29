@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Space Jigsaw Puzzle</title>
+        <link rel="stylesheet" href="puzzle.css">
+        <script src="puzzle3.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Space Jigsaw Puzzle</h1>
+            <div class="button-container">
+                <button id="homeButton">Home</button>
+                <button id="referenceButton">Reference Picture</button>
+                <button id="shuffleButton">Shuffle</button>
+                <button id="morePuzzlesButton">More Puzzles</button>
+            </div>
+        </header>
+        <br>
+        <div id="board"></div>
+        <h2>Turns: <span id="turns">0</span></h2>
+        <div id="pieces"></div>
+
+        <script>
+            document.getElementById("homeButton").onclick = function() {
+                window.location.href = "index.html"; // Update with the actual home page URL
+            };
+
+            document.getElementById("referenceButton").onclick = function() {
+                window.location.href = "reference3.html";
+            };
+
+            document.getElementById("shuffleButton").onclick = function() {
+                window.location.href = "puzzle3.html";
+            };
+
+            document.getElementById("morePuzzlesButton").onclick = function() {
+                window.location.href = "puzzle.html"; // Update with the actual URL for more puzzles
+            };
+        </script>
+    </body>
+</html>

@@ -1,0 +1,142 @@
+ body { 
+        background-image: url('images/bg4\ \(2\).jpg');
+        background-size: contain;
+       background-repeat: round;
+        background-attachment: scroll;
+      }
+
+h1 {    
+        font-size: 30px;
+        color:lightcyan;
+        text-align: center;
+    }
+h2 {
+        font-size: 50px;
+        color: rgb(209, 205, 205);
+        text-align: center;
+        border: #421a1a;
+      }
+
+      
+    .shape1
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .shape2
+    {
+     display: grid;
+      margin-left: 800px;
+     
+    }
+    .shape3{
+
+  
+      width:310px;
+      height:310px;"
+
+    }
+     .button {
+      
+        padding: 20px 40px;
+        background-color: #3498db;
+        background-size: contain;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 200px 570px;
+    }
+    .buttonA{
+      padding: 5px 10px ;
+      background-color: #5a9ac5;
+      color: #150000;
+      border: #b9abab;
+      border-radius: 10px;
+      border-color: aliceblue;
+      cursor: pointer;
+      margin-left:auto;
+      font-size: small;
+    }
+
+
+    ul.a{
+      list-style-type: decimal;  ;
+      font: 1em sans-serif;
+      color: aquamarine;
+      text-align: left;
+      font-size: xx-large;
+      text-decoration: rgb(97, 108, 205);
+      align-items: center;
+      margin-left: 50px;
+    
+    }
+    ul.b{
+  
+      list-style-type: decimal;
+      font: 1em sans-serif;
+      color: rgb(160, 215, 221);
+      font-size: xx-large;
+     
+    }
+    ul.c{
+      list-style-type: circle;
+      font: 1em sans-serif;
+      font-size: medium;
+      color: #fff;
+    }
+    .text{
+
+      color: #fff;
+    }
+    *{box-sizing: border-box;}
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+@media screen and (max-width: 600px){
+  .column{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px){
+  .button{
+    width: 100%;
+  }
+}
+  
+}
+  
+
+    buttonB:hover {
+      opacity: 0.8;
+      }
+      .formcontainer {
+      text-align: left;
+      margin: 24px 50px 12px;
+      }
+      .container {
+       color:white; 
+      padding: 16px 0;
+      text-align:left;
+      }
+      button {
+        background-color: #58b1da;
+        color: white;
+        padding: 14px 0;
+        margin: 5px 140px;
+        border: 5;
+        cursor: grabbing;
+        width: 10%;
+        }
+        
